@@ -1,0 +1,20 @@
+:root {
+    --verde-oliva: #556B2F;
+    --dourado-suave: #C5A880;
+    --off-white: #F9F6F1;
+    --marrom-madeira: #8B5E3C;
+    --terracota: #D2996B;
+
+    --fonte-titulo: 'Playfair Display', serif;
+    --fonte-texto: 'Lora', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: ;
+}
