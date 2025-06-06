@@ -23,7 +23,7 @@ body{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -39,11 +39,13 @@ p{
 }
 
 header{
+    height: 60vh;
     background-color: var(--off-white);
     padding: 40px 20px;
     text-align: center;
     border-bottom: 1px solid rgba(0, 0 , 0, 0.05);
 }
+
 
 .logo img {
     width: 200px;
@@ -71,12 +73,14 @@ header{
     text-decoration: none;
     font-family: var(--fonte-texto);
     color: var(--verde-oliva);
-    font-size: 1rem;
+    font-size: 23px;
     transition: color 0.3s ease;
 }
 
-.menu a:houver{
-    background-color: var(--dourado-suave);
+.menu ul li a:hover {
+    background-color: var(--verde-oliva);
+    transform: scale(1.05);
+    color: var(--off-white);
 }
 
 
@@ -124,8 +128,8 @@ header{
 }
 
 .botao.secundario:hover {
-    background-color: var(--verde-oliva);
-    color: white;
+    background-color: var(--dourado-suave);
+    transform: translateY(-2px);
 }
 
 .pratos-destaque {
@@ -269,3 +273,186 @@ header{
 .box button:hover {
     background-color: var(--dourado-suave);
 }
+
+.depoimentos {
+    background-color: var(--off-white);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.depoimentos h2 {
+    color: var(--marrom-madeira);
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.depoimentos p {
+    color: var(--verde-oliva);
+    font-family: var(--fonte-texto);
+    margin-bottom: 40px;
+}
+
+.cards-dp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-dp,
+.card-depoimento {
+    background-color: white;
+    border: 2px solid var(--dourado-suave);
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-dp:hover,
+.card-depoimento:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-dp .estrelas,
+.card-depoimento .estrelas {
+    color: var(--terracota);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-dp .texto,
+.card-depoimento .texto {
+    color: var(--verde-oliva);
+    font-family: var(--fonte-texto);
+    margin-bottom: 20px;
+}
+
+.cliente strong {
+    color: var(--marrom-madeira);
+    font-family: var(--fonte-titulo);
+}
+
+.cliente span {
+    color: var(--terracota);
+    font-size: 0.9rem;
+}
+
+.newsletter {
+    background-color: var(--verde-oliva);
+    color: var(--off-white);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.newsletter h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--dourado-suave);
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-family: var(--fonte-texto);
+    margin-bottom: 30px;
+}
+
+.form-newsletter input[type="email"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.form-newsletter button {
+    background-color: var(--dourado-suave);
+    color: var(--marrom-madeira);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-newsletter button:hover {
+    background-color: var(--terracota);
+    color: white;
+}
+
+.footer {
+    background-color: #000; /* fundo preto */
+    color: #eee; /* texto claro, suave */
+    padding: 30px 20px;
+    font-family: 'Arial', sans-serif; /* fonte simples e limpa */
+    font-size: 14px;
+    text-align: center;
+}
+
+.container-footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer .col {
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: inline-flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer ul li a {
+    color: #eee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+.footer ul li a:hover {
+    color: #e1a43a; /* cor destaque suave */
+}
+
+.social-icons {
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    background-color: #e1a43a;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+}
+
+.social-icons img {
+    width: 16px;
+    height: 16px;
+    filter: invert(1);
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #777;
+    font-size: 12px;
+    border-top: 1px solid #222;
+    padding-top: 15px;
+}
+

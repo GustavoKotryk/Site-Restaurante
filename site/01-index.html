@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Casa D’Oro – Gastronomia Italiana & Mediterrânea</title>
     <link rel="icon" href="imgs/logo_redonda.png" type="image/png" />
-    <link rel="stylesheet" href="css/stlyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
         </nav>
         </div>
 
-        <header>
+        <header class="hero-section">
             <div class="logo">
                 <a href="index.html">
                     <img src="imgs/logo_redonda.png" alt="Logo Casa D'Oro">
@@ -44,12 +45,12 @@
         </header>
 
         <section class="pratos-destaque">
-            <h2>Pratos em Destaque</h2>
-            <p class="descricao">Nossa seleção de pratos preparados com ingredientes frescos e técnicas refinadas para
-                proporcionar uma experiência gastronómica única.</p>
 
             <div class="layout">
                 <div class="coluna-esquerda">
+                    <h2>Pratos em Destaque</h2>
+                    <p class="descricao">Nossa seleção de pratos preparados com ingredientes frescos e técnicas refinadas para
+                                        proporcionar uma experiência gastronómica única.</p>
                     <div class="grid-pratos">
 
                         <div class="prato">
@@ -108,7 +109,7 @@
 
                     <div class="box">
                         <h3>Nossa Culinária </h3>
-                        <iframe width="100%" height="200" src="https://youtube.com/embed/W02ihlDUO9A" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="200" src="https://youtube.com/embed/MXX9pxB4SOY" frameborder="0" allowfullscreen></iframe>
                         <p>Conheça mais sobre nossos ingredientes e métodos de preparo </p>
                     </div>
 
@@ -183,47 +184,44 @@
             </form>
         </section> 
 
-        <footer> 
-            <div class="rodape">
-                <div class="container-footer">
-
-                    <div class="coluna">
-                        <h3>Casa D'Oro</h3>
-                        <p>Experiências gastronômicas inesquecíveis em um ambiente sofisticado e acolhedor.</p>
-                        <div class="redes-socias">
-                            <a href="#"><img src="imgs/icons/instagram.png" alt=Instagram> </a>
-                            <a href="#"><img src="imgs/icons/whatsapp.png" alt="Whatsapp"> </a>
-                            <a href="#"><img src="imgs/icons/facebook.png"  alt="Facebook"> </a>
-                        </div>
+        <footer class="footer">
+            <div class="container-footer">
+                <div class="col">
+                    <h3>Casa D'Oro</h3>
+                    <p>Experiência gastronômica sofisticada e acolhedora.</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="imgs/icons/instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="imgs/icons/whatsapp.png" alt="Whatsapp"></a>
+                        <a href="#"><img src="imgs/icons/facebook.png" alt="Facebook"></a>
                     </div>
-
-                    <div class="coluna">
-                        <h4>Links Rápidos</h4>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="cardapio.html">Cardápio</a></li>
-                            <li><a href="sobre.html">Sobre Nós</a></li>
-                            <li><a href="contato.html">Contato</a></li>
-                            <li><a href="reserva.html">Reservas</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="coluna">
-                        <h4>Horário de Funcionamento</h4>
-                        <ul>
-                            <li>Segunda - Quinta: 12h00 - 23h00</li>
-                            <li>Sexta - Sábado: 12h00 - 00h00</li>
-                            <li>Domingo: 12h00 - 22h00</li>
-                        </ul>
-                    </div>
-
-
                 </div>
-
-                <div class="copyright">
-                    <p>© 2025 Casa D'Oro. Todos os direitos reservados. </p>
+        
+                <div class="col">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cardápio</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Reservas</a></li>
+                    </ul>
+                </div>
+        
+                <div class="col">
+                    <h4>Funcionamento</h4>
+                    <ul>
+                        <li>Seg a Qui: 12h - 23h</li>
+                        <li>Sex e Sab: 12h - 00h</li>
+                        <li>Domingo: 12h - 22h</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="copyright">
+                <p>© 2025 Casa D'Oro. Todos os direitos reservados.</p>
             </div>
         </footer>
+        
 
 </body>
 
