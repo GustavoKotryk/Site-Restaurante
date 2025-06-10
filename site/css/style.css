@@ -23,7 +23,7 @@ body{
 }
 
 .container {
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -39,11 +39,12 @@ p{
 }
 
 header{
-    height: 60vh;
+    height: 100vh;
     background-color: var(--off-white);
     padding: 40px 20px;
     text-align: center;
     border-bottom: 1px solid rgba(0, 0 , 0, 0.05);
+    margin-top: 100px;
 }
 
 
@@ -55,8 +56,8 @@ header{
 
 .top-bar{
     background-color: var(--off-white);
-    border-bottom: 2px solid var(--dourado-suave);
-    padding: 15px 30px;
+    border-bottom: 3px solid var(--dourado-suave);
+    padding: 17px 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -66,7 +67,8 @@ header{
     display: flex;
     gap: 90px;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    
 }
 
 .menu a{
@@ -75,12 +77,14 @@ header{
     color: var(--verde-oliva);
     font-size: 23px;
     transition: color 0.3s ease;
+    border-radius: 6px;
 }
 
 .menu ul li a:hover {
     background-color: var(--verde-oliva);
     transform: scale(1.05);
     color: var(--off-white);
+
 }
 
 

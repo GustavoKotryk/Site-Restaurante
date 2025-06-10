@@ -12,9 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <style>
+        html {
+        scroll-behavior: smooth;
+        }
+    </style>
 </head>
-
-<body>
+    
     <div class="container">
 
         <div class="top-bar">
@@ -40,9 +44,11 @@
 
             <div class="botoes-header">
                 <a href="cardapio.html" class="botao">Ver Cardápio</a>
-                <a href="contato.html" class="botao secundario">Fazer Reserva</a>
+                <a href="#reserva" class="botao secundario">Fazer Reserva</a>
             </div>
         </header>
+
+        <body>
 
         <section class="pratos-destaque">
 
@@ -120,18 +126,19 @@
                         <p><strong>Domingo</strong><br>12h00 - 22h00</p>
                     </div>
 
-                    <div class="box">
-                        <h3>Reserva de Mesa</h3>
-                        <form>
-                            <input type="text" placeholder="Nome" required>
-                            <input type="email" placeholder="E-mail" required>
-                            <input type="date" required>
-                            <input type="time" required>
-                            <input type="number" placeholder="Número de Pessoas" min="1" required>
-                            <textarea placeholder="Observações"></textarea>
-                            <button type="submit">Reservar</button>
-                        </form>
-                    </div>
+                    <div class="box" id="reserva">
+                    <h3>Reserva de Mesa</h3>
+                    <form>
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="E-mail" required>
+                        <input type="date" required>
+                        <input type="time" required>
+                        <input type="number" placeholder="Número de Pessoas" min="1" required>
+                        <textarea placeholder="Observações"></textarea>
+                        <button type="submit">Reservar</button>
+                
+                    </form>
+                </div>
                 </div>
             </div>
         </section>
