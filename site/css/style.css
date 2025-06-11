@@ -23,9 +23,9 @@ body{
 }
 
 .container {
-    max-width: 90%;
+    max-width: max-content;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2px;
 }
 
 h1, h2, h3, h4{

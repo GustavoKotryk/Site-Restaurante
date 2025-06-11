@@ -1,35 +1,311 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Menu Casa D’Oro – Gastronomia Italiana & Mediterrânea</title> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Casa D’Oro – Gastronomia Italiana & Mediterrânea</title>
     <link rel="icon" href="imgs/logo_redonda.png" type="img/png" />
-    <link rel="stylesheet" href="css/cardapio.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cardapio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        html{
-            scroll-behavior: smooth;
-        }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
-</head>
+  </head>
 
-<div class="container">
-
-    <div class="top-bar">
-    <nav class="menu">
-        <ul>
+  <div class="container">
+    <header class="hero-section">
+      <div class="top-bar">
+        <div class="logo">
+          <img src="imgs/logo_redonda.png" alt="Logo">
+        </div>
+        <nav class="menu">
+          <ul>
             <li><a href="01-index.html">Home</a></li>
             <li><a href="cardapio.html">Cardápio</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </nav>
-    </div>
+          </ul>
+        </nav>
+      </div>
+    
+      <img src="imgs/img-fundo/fundoo.png" alt="Imagem de fundo">
+    </header>
+    
+
+  <body>
+    <section class="pratos">
+      <div class="botao-tipo-pratos">
+        <a href="#entradas" class="botao">Entrada</a>
+        <a href="#pratos-principais" class="botao">Prato Principal</a>
+        <a href="#sobremesas" class="botao">Sobremesas</a>
+        <a href="#bebidas" class="botao">Bebidas</a>
+        <a href="#bebidas-alcoolicas" class="botao">Bebidas Alcoólicas</a>
+      </div>
+
+      <div id="entradas" class="secao-pratos">
+        <h3>Entradas</h3>
+        <div class="prato">
+          <h3>Bruschetta al Pomodoro</h3>
+          <p>Pão rústico torrado com tomate fresco, alho, manjericão e azeite de oliva extra virgem.</p>
+          <span>R$ 22,00 · 2 unidades</span>
+        </div>
+      
+        <div class="prato">
+          <h3>Caprese</h3>
+          <p>Fatias de muçarela de búfala, tomate italiano e folhas de manjericão com redução de balsâmico.</p>
+          <span>R$ 26,00 · Serve 1 pessoa</span>
+        </div>
+      
+        <div class="prato">
+          <h3>Arancini</h3>
+          <p>Bolinhos crocantes de risoto recheados com queijo e molho de tomate artesanal.</p>
+          <span>R$ 24,00 · 3 unidades</span>
+        </div>
+      
+        <div class="prato">
+          <h3>Focaccia com Alecrim</h3>
+          <p>Pão italiano macio com azeite, flor de sal e alecrim fresco.</p>
+          <span>R$ 18,00 · Serve 2 pessoas</span>
+        </div>
+      
+        <div class="prato">
+          <h3>Carpaccio di Manzo</h3>
+          <p>Finas fatias de carne bovina curada com rúcula, lascas de parmesão e molho de alcaparras.</p>
+          <span>R$ 34,00 · Serve 1 pessoa</span>
+        </div>
+      
+        <div class="prato">
+          <h3>Olivas Marinadas</h3>
+          <p>Mistura de azeitonas verdes e pretas temperadas com alho, limão e ervas mediterrâneas.</p>
+          <span>R$ 16,00 · Porção individual</span>
+        </div>
+      </div>
+
+      <div id="pratos-principais" class="secao-pratos">
+        <h2>Pratos Principais</h2>
+
+  <div class="prato">
+    <h3>Risotto alla Milanese</h3>
+    <p>Risoto cremoso feito com açafrão e parmesão, finalizado com manteiga e vinho branco.</p>
+    <span>R$ 49,00 · Serve 1 pessoa</span>
+  </div>
+
+  <div class="prato">
+    <h3>Spaghetti alla Carbonara</h3>
+    <p>Espaguete com molho à base de ovos, queijo pecorino, pancetta e pimenta-do-reino.</p>
+    <span>R$ 44,50 · Serve 1 pessoa</span>
+  </div>
+
+  <div class="prato">
+    <h3>Pollo alla Cacciatora</h3>
+    <p>Frango cozido lentamente com tomates, azeitonas, alho, cebola e ervas aromáticas.</p>
+    <span>R$ 52,00 · Serve 1 pessoa</span>
+  </div>
+
+  <div class="prato">
+    <h3>Gnocchi al Pesto Genovese</h3>
+    <p>Tradicional nhoque de batata servido com molho pesto de manjericão, pinoli e parmesão.</p>
+    <span>R$ 41,90 · Serve 1 pessoa</span>
+  </div>
+
+  <div class="prato">
+    <h3>Linguine ai Frutti di Mare</h3>
+    <p>Massas longas com frutos do mar frescos, alho, azeite de oliva e vinho branco.</p>
+    <span>R$ 58,00 · Serve 1 pessoa</span>
+  </div>
+
+  <div class="prato">
+    <h3>Melanzane alla Parmigiana</h3>
+    <p>Berinjelas assadas em camadas com molho de tomate, manjericão e queijo gratinado.</p>
+    <span>R$ 39,00 · Serve 1 pessoa</span>
+  </div>
 </div>
+
+<div id="sobremesas" class="secao-pratos">
+  <h2>Sobremesas</h2>
+
+  <div class="prato">
+    <h3>Tiramisù</h3>
+    <p>Camadas de biscoito embebido em café, creme de mascarpone e cacau em pó.</p>
+    <span>R$ 24,00 · Porção individual</span>
+  </div>
+
+  <div class="prato">
+    <h3>Panna Cotta</h3>
+    <p>Clássica sobremesa italiana feita com creme de leite, baunilha e calda de frutas vermelhas.</p>
+    <span>R$ 22,00 · Porção individual</span>
+  </div>
+
+  <div class="prato">
+    <h3>Cannoli Siciliani</h3>
+    <p>Casquinha crocante recheada com creme de ricota doce e raspas de laranja.</p>
+    <span>R$ 26,00 · 2 unidades</span>
+  </div>
+
+  <div class="prato">
+    <h3>Zabaglione</h3>
+    <p>Creme leve feito com gemas, vinho marsala e açúcar, servido morno com frutas frescas.</p>
+    <span>R$ 23,00 · Porção individual</span>
+  </div>
+
+  <div class="prato">
+    <h3>Affogato al Caffè</h3>
+    <p>Bola de sorvete de baunilha "afogada" em café espresso quente.</p>
+    <span>R$ 19,00 · Porção individual</span>
+  </div>
+
+  <div class="prato">
+    <h3>Torta Caprese</h3>
+    <p>Bolo úmido de chocolate amargo com farinha de amêndoas, sem glúten.</p>
+    <span>R$ 25,00 · Fatia</span>
+  </div>
+</div>
+
+<div id="bebidas" class="secao-pratos">
+  <h2>Bebidas</h2>
+
+  <div class="prato">
+    <h3>Água com Gás San Pellegrino</h3>
+    <p>Água mineral italiana naturalmente gaseificada, levemente salgada.</p>
+    <span>R$ 9,00 · 500ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Limonata Italiana</h3>
+    <p>Refrescante limonada com toque de hortelã e açúcar demerara.</p>
+    <span>R$ 12,00 · 350ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Chinotto</h3>
+    <p>Refrigerante italiano levemente amargo feito com extrato de laranja amarga.</p>
+    <span>R$ 14,00 · 330ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Succo di Arancia Rossa</h3>
+    <p>Suco natural de laranja-sanguínea, típico da Sicília.</p>
+    <span>R$ 13,00 · 300ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Espresso</h3>
+    <p>Café italiano intenso e aromático, servido curto como manda a tradição.</p>
+    <span>R$ 8,00 · 50ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Iced Caffè Latte</h3>
+    <p>Café espresso com leite e gelo, perfeito para dias quentes.</p>
+    <span>R$ 15,00 · 350ml</span>
+  </div>
+</div>
+
+<div id="bebidas-alcoolicas" class="secao-pratos">
+  <h2>Bebidas Alcoólicas</h2>
+
+  <div class="prato">
+    <h3>Aperol Spritz</h3>
+    <p>Coquetel refrescante com Aperol, prosecco e água com gás. Ideal para começar a noite.</p>
+    <span>R$ 28,00 · 300ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Negroni</h3>
+    <p>Clássico italiano com gin, vermute rosso e Campari, servido com gelo e fatia de laranja.</p>
+    <span>R$ 32,00 · 150ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Limoncello</h3>
+    <p>Licor tradicional do sul da Itália feito com cascas de limão-siciliano. Digestivo.</p>
+    <span>R$ 18,00 · 50ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Vinho Tinto Chianti</h3>
+    <p>Vinho tinto seco da Toscana, harmoniza perfeitamente com massas e carnes.</p>
+    <span>R$ 24,00 · Taça 150ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Prosecco</h3>
+    <p>Espumante italiano leve e frutado, ideal como aperitivo.</p>
+    <span>R$ 26,00 · Taça 150ml</span>
+  </div>
+
+  <div class="prato">
+    <h3>Bellini</h3>
+    <p>Drink delicado com prosecco e purê de pêssego branco, criado em Veneza.</p>
+    <span>R$ 27,00 · 200ml</span>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+
+    <section class="newsletter">
+      <h2>Fique por Dentro das Novidades</h2>
+      <p>
+        Inscreva-se para receber nossas promoções especiais, eventos
+        gastronômicos e novidades do cardápio.
+      </p>
+      <form class="form-newsletter">
+        <input type="email" placeholder="Seu melhor email" required />
+        <button type="submit">Inscrever</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="col">
+          <h3>Casa D'Oro</h3>
+          <p>Experiência gastronômica sofisticada e acolhedora.</p>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="imgs/icons/instagram.png" alt="Instagram"
+            /></a>
+            <a href="#"><img src="imgs/icons/whatsapp.png" alt="Whatsapp" /></a>
+            <a href="#"><img src="imgs/icons/facebook.png" alt="Facebook" /></a>
+          </div>
+        </div>
+
+        <div class="col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cardápio</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Reservas</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h4>Funcionamento</h4>
+          <ul>
+            <li>Seg a Qui: 12h - 23h</li>
+            <li>Sex e Sab: 12h - 00h</li>
+            <li>Domingo: 12h - 22h</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© 2025 Casa D'Oro. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
 </html>
