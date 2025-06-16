@@ -114,15 +114,19 @@ header{
 }
 
 .botao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 50px; 
+    justify-content: center;
     background-color: var(--verde-oliva);
     color: white;
     padding: 12px 24px;
     border: none;
-    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     font-family: var(--fonte-texto);
     transition: background-color 0.3s ease, transform 0.2s ease;
+    
 }
 
 .botao:hover{
@@ -130,12 +134,49 @@ header{
     transform: translateY(-2px);
 }
 
+.pratos{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    text-align: left;
+}
 
+.sessao-cardapio h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 2.2rem;
+    color: var(--verde-oliva);
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 2px solid var(--dourado-suave);
+    padding-bottom: 10px;
+}
 
+.item-cardapio {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
 
+.item-cardapio h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    color: var(--marrom-madeira);
+    margin-bottom: 5px;
+}
 
+.item-cardapio p {
+    font-family: var(--fonte-texto);
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
 
-
+.preco {
+    font-family: var(--fonte-texto);
+    color: var(--terracota);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 
 
 
